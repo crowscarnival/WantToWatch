@@ -32,10 +32,14 @@
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 <script>
-    function cons(e) {
+    function hide(e) {
+        console.log(e);
+    };
+    function show(e) {
         console.log(e);
     };
     $('#myModal').on('hide.bs.modal', cons);
+    $('#myModal').on('show.bs.modal',show);
 </script>
 </body>
 </html>
