@@ -31,5 +31,11 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+<script>
+    function cons(e) {
+        console.log(e);
+    };
+    $('#myModal').on('hide.bs.modal', cons);
+</script>
 </body>
 </html>
